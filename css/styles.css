@@ -113,14 +113,16 @@ header-navigation a :hover {
 
 .head-background {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
 
 .head {
-    /* width: 1200px; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1600px;
+    height: 600px;
 }
 
 .head-title {
