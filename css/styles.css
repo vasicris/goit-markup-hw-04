@@ -111,8 +111,12 @@ header-navigation a :hover {
     padding-right: 30px;
 }
 
+.head-background {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
+    background-repeat: no-repeat;
+}
+
 .head {
-    background-color: #2F303A;
     /* width: 1200px; */
     display: flex;
     flex-direction: column;
