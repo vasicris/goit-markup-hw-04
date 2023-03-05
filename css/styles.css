@@ -321,6 +321,17 @@ li {
     padding-bottom: 10px;
 }
 
+.social-media-icons {
+    display: flex;
+}
+
+.social-media-icons-list {
+    display: flex;
+    margin: 16px 32px 30px 32px;
+    gap: 10px;
+    text-decoration: none;
+}
+
 .description {
     font-weight: 400;
     font-size: 14px;
