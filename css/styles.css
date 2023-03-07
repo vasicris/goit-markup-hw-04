@@ -102,6 +102,12 @@ header-navigation a :hover {
     padding-right: 30px;
 }
 
+.head-background {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
 .head {
     background-color: #2F303A;
 }
@@ -310,6 +316,17 @@ li {
 
 .title-team {
     padding-bottom: 10px;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.social-media-icons-list {
+    display: flex;
+    margin: 16px 32px 30px 32px;
+    gap: 10px;
+    text-decoration: none;
 }
 
 .description {
