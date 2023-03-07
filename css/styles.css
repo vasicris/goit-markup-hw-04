@@ -400,6 +400,14 @@ li {
     font-style: normal;
     }
 
+    .find-us-on {
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
     * {
         margin-block-start: auto;
         margin-block-end: auto;
