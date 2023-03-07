@@ -23,10 +23,9 @@ html {
     letter-spacing: 0.02em;
     display: flex;
     justify-content: space-between;
-    /* align-content: space-evenly; 
-    padding: 0 215px; */
     width: 100%;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .nav-link {
@@ -38,7 +37,6 @@ html {
 
 .header-left {
     display: flex;
-    /* gap: 30px; */
     align-items: center;
     padding-inline-start: 0px;
     padding: 32px 0px;
@@ -46,7 +44,6 @@ html {
 
 .header-wright {
     display: flex;
-    /* gap: 30px; */
     align-items: center;
     padding-inline-start: 0px;
     padding: 32px 0px;
@@ -84,7 +81,7 @@ header-navigation a :hover {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-    padding: 0 93px 0 215px;
+    padding: 0 93px 0 0;
 }
 
 #studio1 {
@@ -92,13 +89,7 @@ header-navigation a :hover {
   }
  
 .header-wright {
-    /* font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em; */
     color: #757575;
-    /*display: flex;
-    justify-content: space-between;
-    align-content: center;*/
 }
 
 .header-wright :hover {
@@ -111,18 +102,8 @@ header-navigation a :hover {
     padding-right: 30px;
 }
 
-.head-background {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-}
-
 .head {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1600px;
-    height: 600px;
+    background-color: #2F303A;
 }
 
 .head-title {
@@ -135,6 +116,8 @@ header-navigation a :hover {
     color: #FFFFFF;
     width: 696px;
     padding-bottom: 30px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .head-button {
@@ -147,18 +130,17 @@ header-navigation a :hover {
     font-size: 16px;
     line-height: 30px;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     border: none;
     padding: 0px 20px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .our-description {
     display: flex;
     gap: 30px;
-    padding-left: 168px;
 }
 
 .our-every-description {
@@ -175,8 +157,6 @@ li {
 .section-portofolio {
     display: flex;
     flex-direction: column;
-    /*width: 1170px;*/
-    /*height: 1360px;*/
     padding-top: 177px;
     padding-bottom: 12px;
 }
@@ -188,9 +168,7 @@ li {
     display: flex;
     justify-content: center;
     gap: 8px;
-    /* width: 516px; */
     height: 38px;
-    /* padding-left: 444px; */
     padding-bottom: 50px;
 }
 
@@ -232,6 +210,17 @@ li {
     height: 440px;
 }
 
+.portofolio > li {
+    border: 1px solid #EEEEEE;
+}
+
+.card-portofolio > h3 {
+   padding: 20px 0px 4px 0px;
+}
+
+.card-portofolio > p {
+    padding-bottom: 20px;
+}
 
 .image-portofolio {
     width: 370px; 
@@ -259,17 +248,17 @@ li {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    /* text-align: center; */
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
-    /* padding-left: 701px; */
+    display: flex;
+    justify-content: center;
 }
 
 .what-we-do-img {
     display: flex;
     gap: 30px;
-    /* padding-left: 215px; */
+    justify-content: center;
 }
 
 .section-our-team {
@@ -286,13 +275,15 @@ li {
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
-    /* padding-left: 701px; */
+    display: flex;
+    justify-content: center;
 }
 
 .our-team {
     display: flex;
     gap: 30px;
-    /* padding-left: 215px; */
+    display: flex;
+    justify-content: center;
 }
 
 .card-team {
@@ -321,17 +312,6 @@ li {
     padding-bottom: 10px;
 }
 
-.social-media-icons {
-    display: flex;
-}
-
-.social-media-icons-list {
-    display: flex;
-    margin: 16px 32px 30px 32px;
-    gap: 10px;
-    text-decoration: none;
-}
-
 .description {
     font-weight: 400;
     font-size: 14px;
@@ -342,10 +322,9 @@ li {
 
 .footer {
     background-color: #2F303A;
-    width: 1200px;
     display: flex;
     flex-direction: column;
-    padding: 60px 0px 60px 215px;
+    padding: 60px 0px;
 }
 
 .bottom-webstudio{
@@ -381,7 +360,6 @@ li {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-    /* padding: 0 93px 0 215px; */
 }
 
 .adress-link-footer {
@@ -403,7 +381,7 @@ li {
     }
 
     * {
-        margin-block-start: 0px;
-        margin-block-end: 0px;
+        margin-block-start: auto;
+        margin-block-end: auto;
         padding-inline-start: 0px;
     }
