@@ -42,13 +42,6 @@ html {
     padding: 32px 0px;
 }
 
-.header-wright {
-    display: flex;
-    align-items: center;
-    padding-inline-start: 0px;
-    padding: 32px 0px;
-}
-
 .header-left :hover {
     color: #2196F3;
     cursor: pointer;
@@ -66,6 +59,7 @@ html {
 .contact-link {
     color: #757575;
     text-decoration: none;
+    padding-left: 10px;
 }
 
 header-navigation a :hover {
@@ -90,6 +84,21 @@ header-navigation a :hover {
  
 .header-wright {
     color: #757575;
+}
+
+.header-wright {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0px;
+    padding: 32px 0px;
+}
+
+.header-wright-envelope {
+    display: flex;
+}
+
+.header-wright-phone {
+    display: flex;
 }
 
 .header-wright :hover {
@@ -340,11 +349,30 @@ li {
     color: #757575;
 }
 
+.regular-customers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regular-customers-list {
+    display: flex;
+}
+
 .footer {
     background-color: #2F303A;
     display: flex;
     flex-direction: column;
     padding: 60px 0px;
+}
+
+.footer-navigation {
+    display: flex;
+}
+
+.right-footer {
+    height: 80px;
+    padding-left: 94px;
 }
 
 .bottom-webstudio{
@@ -400,16 +428,16 @@ li {
     font-style: normal;
     }
 
-    .find-us-on {
+.find-us-on {
         font-weight: 700;
         line-height: 16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #FFFFFF;
-    }
+}
 
-    * {
+* {
         margin-block-start: auto;
         margin-block-end: auto;
         padding-inline-start: 0px;
-    }
+}
