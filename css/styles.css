@@ -118,7 +118,7 @@ header-navigation a :hover {
 }
 
 .head {
-    background-color: #2F303A;
+    /* background-color: #2F303A; */
 }
 
 .head-title {
@@ -355,8 +355,27 @@ li {
     align-items: center;
 }
 
+.title-regular-customers {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 91px;
+}
+
 .regular-customers-list {
     display: flex;
+    justify-content: center;
+}
+
+.card-regular-customers {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin: 50px 30px 94px 30px;
 }
 
 .footer {
