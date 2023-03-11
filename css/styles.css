@@ -128,7 +128,7 @@ header-navigation a:hover {
 
 .head-background {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -491,8 +491,8 @@ li {
 }
 
 * {
-    margin-block-start: auto;
-    margin-block-end: auto;
+    /* margin-block-start: auto;
+    margin-block-end: auto; */
     padding-inline-start: 0px;
 }
 
