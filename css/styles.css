@@ -62,9 +62,23 @@ html {
     padding-left: 10px;
 }
 
-header-navigation a :hover {
+.contact-link:hover {
+    color:#2196F3;
+    cursor: pointer;
+    border: none;
+}
+
+.header-icons svg:hover {
+    color:#2196F3;
+    cursor: pointer;
+    border: none;
+}
+
+/*
+header-navigation a:hover {
     color: #2196F3
 }
+*/
 
 .WebStudio-info-header {
     font-family: 'Raleway';
@@ -101,11 +115,12 @@ header-navigation a :hover {
     display: flex;
 }
 
+/*
 .header-wright :hover {
     color:#2196F3;
     cursor: pointer;
     border: none;
-}
+} */
 
 .header-wright > li {
     padding-right: 30px;
@@ -383,6 +398,7 @@ li {
 .regular-customers-list {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .card-regular-customers {
@@ -391,6 +407,9 @@ li {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin: 50px 30px 94px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
