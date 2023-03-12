@@ -187,7 +187,7 @@ li {
 .section-portofolio {
     display: flex;
     flex-direction: column;
-    padding-top: 177px;
+    padding-top: 94px;
     padding-bottom: 12px;
 }
 
@@ -214,6 +214,7 @@ li {
     letter-spacing: 0.03em;
     color: #212121;
     border: none;
+    padding: 6px 22px 6px 22px;
 }
 
 .button:hover {
@@ -237,7 +238,7 @@ li {
 
 .card-portofolio {
     flex-basis: 370px;
-    height: 440px;
+    height: 404px;
 }
 
 .portofolio > li {
@@ -245,10 +246,10 @@ li {
 }
 
 .card-portofolio > h3 {
-   padding: 20px 0px 4px 0px;
+   padding: 20px 0px 4px 24px;
 }
 
-.card-portofolio > h3,p {
+.card-portofolio > p {
     padding-left: 24px;
 }
 
@@ -498,9 +499,7 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    /* padding: 15px 0px 20px;
-    width: 79px;
-    height: 16px; */
+    padding-bottom: 20px;
 }
 
 .social-media-icons-list-footer {
@@ -533,8 +532,8 @@ li {
 }
 
 * {
-    /* margin-block-start: auto;
-    margin-block-end: auto; */
+    margin-block-start: auto;
+    margin-block-end: auto;
     padding-inline-start: 0px;
 }
 
