@@ -371,8 +371,12 @@ li {
 
 .icon-list-item:hover {
     background-color: #2196F3;
-    color: white;
 }
+
+.icon-list-item svg:hover {
+    fill: white;
+}
+  
 
 .description {
     font-weight: 400;
@@ -506,3 +510,4 @@ li {
     flex-direction: column;
     margin-block-start: 0px;
 }
+
