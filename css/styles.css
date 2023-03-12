@@ -376,7 +376,6 @@ li {
 .icon-list-item svg:hover {
     fill: white;
 }
-  
 
 .description {
     font-weight: 400;
@@ -417,6 +416,10 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-regular-customers svg:hover {
+    fill: #2196f3;
 }
 
 .footer {
