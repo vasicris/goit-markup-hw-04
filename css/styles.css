@@ -5,13 +5,18 @@ html {
     font-size: 14px;
 }
 
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
 .container {
     width: 1200px;
     margin: 0px auto;
 }
 
 .section {
-    padding: 94px 0px;
+    /* padding: 94px 0px 0px 0px; */
     margin: 0px;
     margin: 0px auto;
 }
@@ -130,6 +135,7 @@ header-navigation a:hover {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4) 180%, #C4C4C4 300%), url(../images/backgroung-Img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
 }
 
 .head {
@@ -148,6 +154,7 @@ header-navigation a:hover {
     padding-bottom: 30px;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    padding-top: 200px;
 }
 
 .head-button {
@@ -166,11 +173,13 @@ header-navigation a:hover {
     padding: 0px 20px;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    /*justify-content: center;*/
 }
 
 .our-description {
     display: flex;
     gap: 30px;
+    padding-top: 94px;
 }
 
 .our-every-description {
@@ -179,9 +188,13 @@ header-navigation a:hover {
     gap: 10px;
 }
 
-li {
-    list-style: none;
-    text-decoration: none;
+.our-description a {
+background-color: #F5F4FA;
+align-items: center;
+height: 120px;
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
 }
 
 .section-portofolio {
@@ -275,7 +288,8 @@ li {
 }
 
 .title-what-we-do {
-    margin-top: 44px;
+    /* margin-top: 44px; */
+    padding-top: 91px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -308,6 +322,7 @@ li {
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
+    padding-top: 94px;
 }
 
 .our-team {
@@ -315,6 +330,7 @@ li {
     gap: 30px;
     display: flex;
     justify-content: center;
+    margin-bottom: 97px;
 }
 
 .card-team {
