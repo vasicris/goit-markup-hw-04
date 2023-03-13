@@ -73,17 +73,13 @@ li {
     border: none;
 }
 
-.header-icons svg:hover {
-    color:#2196F3;
-    cursor: pointer;
-    border: none;
+.header-wright-envelope svg:hover {
+    fill: #2196F3;
 }
 
-/*
-header-navigation a:hover {
-    color: #2196F3
+.header-wright-phone svg:hover {
+    fill: #2196F3;
 }
-*/
 
 .WebStudio-info-header {
     font-family: 'Raleway';
@@ -190,13 +186,13 @@ header-navigation a:hover {
 }
 
 .our-description a {
-background-color: #F5F4FA;
-align-items: center;
-height: 120px;
-display: flex;
-justify-content: center;
-margin-bottom: 30px;
-}
+    background-color: #F5F4FA;
+    align-items: center;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    }
 
 .section-portofolio {
     display: flex;
@@ -445,12 +441,7 @@ margin-bottom: 30px;
     fill: #2196f3;
 }
 
-.card-regular-customers a:hover {
-    fill: #2196f3;
-}
-
 .card-regular-customers:hover {
-    fill: #2196f3;
     border-color: #2196f3;
 }
 
