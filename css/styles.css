@@ -441,8 +441,13 @@ margin-bottom: 30px;
     justify-content: center;
 }
 
-.card-regular-customers svg:hover {
+.card-regular-customers > svg:hover {
     fill: #2196f3;
+}
+
+.card-regular-customers:hover {
+    fill: #2196f3;
+    border-color: #2196f3;
 }
 
 .footer {
