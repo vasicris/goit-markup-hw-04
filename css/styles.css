@@ -73,11 +73,11 @@ li {
     border: none;
 }
 
-.header-wright-envelope svg:hover {
+.header-right-envelope svg:hover {
     fill: #2196F3;
 }
 
-.header-wright-phone svg:hover {
+.header-right-phone svg:hover {
     fill: #2196F3;
 }
 
@@ -97,22 +97,22 @@ li {
     color: black;
   }
  
-.header-wright {
+.header-right {
     color: #757575;
 }
 
-.header-wright {
+.header-right {
     display: flex;
     align-items: center;
     padding-inline-start: 0px;
     padding: 32px 0px;
 }
 
-.header-wright-envelope {
+.header-right-envelope {
     display: flex;
 }
 
-.header-wright-phone {
+.header-right-phone {
     display: flex;
 }
 
@@ -123,7 +123,7 @@ li {
     border: none;
 } */
 
-.header-wright > li {
+.header-right > li {
     padding-right: 30px;
 }
 
